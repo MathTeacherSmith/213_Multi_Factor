@@ -1,5 +1,4 @@
 # a213_multi_factor.py
-import tkinter as tk
 import multifactorcli as mfc
 
 # create a multi-factor interface to a restricted app

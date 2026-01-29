@@ -5,6 +5,12 @@ class MultiFactorAuth:
         # Stored credentials (normally from a DB or file)
         self.username = "admin"
         self.password = "secret"
+        self.question = None
+        self.security_answer = None
+    
+    def set_authetication(self, username, password):
+        self.username = username
+        self.password = password
 
     def set_multiFactorAuthentication(self, question, answer):
         self.question = question
