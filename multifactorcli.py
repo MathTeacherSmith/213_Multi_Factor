@@ -4,7 +4,7 @@ class MultiFactorAuth:
     def __init__(self):
         # Stored credentials (normally from a DB or file)
         self.username = "admin"
-        self.password = "secret"
+        self.password = "scret"
         self.question = None
         self.security_answer = None
     
